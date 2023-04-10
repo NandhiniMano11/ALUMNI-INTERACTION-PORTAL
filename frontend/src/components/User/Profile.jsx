@@ -97,7 +97,7 @@ const Profile = () => {
 
   return (
     <>
-      <MetaData title={`${user?.name} (@${user?.username}) • ALUMNI photos and videos`} />
+      <MetaData title={`${user?.name} (@${user?.username}) • Alumniphotos and videos`} />
 
       {loading && <BackdropLoader />}
       {user ?
@@ -146,7 +146,7 @@ const Profile = () => {
                 <p className="font-medium">{user.name}</p>
                 <p className="whitespace-pre-line">{user.bio}</p>
                 {user?.website &&
-                  <a href={user.website} target="_blank" className="text-blue-900 font-medium" rel="noreferrer">{new URL(user.website).hostname}</a>
+                  <a href={user.website} target="_blank" className="text-blue-900 font-medium">{new URL(user.website).hostname}</a>
                 }
               </div>
             </div>
@@ -181,7 +181,7 @@ const Profile = () => {
               user?.posts?.length > 0 ?
                 <PostContainer posts={user?.posts} id={"posts"} /> :
                 <div className="bg-white mt-2 mb-10 drop-shadow-sm rounded flex sm:flex-row flex-col sm:gap-0 gap-5 sm:p-0 p-4 items-center justify-between">
-                  <img draggable="false" className="w-2/5 rounded-l" src="https://www.alumni.com/static/images/mediaUpsell.jpg/6efc710a1d5a.jpg" alt="" />
+                  <img draggable="false" className="w-2/5 rounded-l" src="https://www.instagram.com/static/images/mediaUpsell.jpg/6efc710a1d5a.jpg" alt="" />
                   <div className="mx-auto flex flex-col items-center">
                     <h4 className="font-medium text-lg sm:text-xl">Start capturing and sharing your moments.</h4>
                     <p>Get the app to share your first photo or video.</p>
