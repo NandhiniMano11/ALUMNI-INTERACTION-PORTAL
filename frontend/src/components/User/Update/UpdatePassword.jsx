@@ -50,7 +50,7 @@ const UpdatePassword = () => {
 
     return (
         <>
-            <MetaData title="Change Password • Instagram" />
+            <MetaData title="Change Password • alumni" />
 
             <form onSubmit={handlePasswordUpdate} className="flex flex-col gap-4 py-8 px-16 sm:w-3/4">
                 <div className="flex items-center gap-8 ml-24">

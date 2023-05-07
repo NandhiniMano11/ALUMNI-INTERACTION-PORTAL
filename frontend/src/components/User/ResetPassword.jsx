@@ -48,7 +48,7 @@ const ResetPassword = () => {
             {loading && <BackdropLoader />}
             <Auth>
                 <div className="bg-white border flex flex-col gap-2 p-4 pt-10">
-                    <img draggable="false" className="mx-auto h-30 w-36 object-contain" src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt="" />
+                    <img draggable="false" className="mx-auto h-30 w-36 object-contain" src="https://www.alumni.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt="" />
                     <form onSubmit={handleSubmit} className="flex flex-col justify-center items-center gap-3 m-3 md:m-8">
                         <TextField
                             fullWidth
